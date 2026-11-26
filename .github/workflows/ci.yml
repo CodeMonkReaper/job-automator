@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package and dev dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Install Playwright Chromium browser
+        run: playwright install --with-deps chromium
+
+      - name: Run pytest test suite
+        run: python -m pytest tests -v
+
+      - name: Run CLI smoke checks
+        run: |
+          python -m job_automator.cli doctor
+          python -m job_automator.cli evaluate --title "Desarrollador Backend Python" --desc "FastAPI y PostgreSQL"

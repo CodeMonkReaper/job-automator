@@ -1,0 +1,187 @@
+{
+  "full_name": "Alex Rivera",
+  "phone": "+56 9 0000 0000",
+  "email": "alex.rivera@example.com",
+  "linkedin": "linkedin.com/in/alex-rivera-dev",
+  "portfolio": "github.com/alex-rivera-dev",
+  "residence": "Santiago, Chile",
+  "locations": [
+    "Santiago, Chile",
+    "Remoto"
+  ],
+  "modalities": [
+    "Presencial",
+    "Híbrido",
+    "Remoto"
+  ],
+  "availability": "Inmediata",
+  "driver_license": "No posee licencia de conducir de ninguna clase",
+  "disability_credential": false,
+  "salary_expectation": "Conversable y abierta al rango de mercado de la empresa",
+  "contract_types": [
+    "Contrato dependiente (plazo fijo / indefinido)",
+    "Boletas de honorarios"
+  ],
+  "strategy_guidelines": {
+    "case_unique": "Ingeniero en Informática titulado en Universidad Tecnológica Demo con 2 años de experiencia profesional en entornos de producción (Acme Cloud, DataFlow Labs y WebShop Demo), aplicando arquitectura modular, CI/CD y optimización de bases de datos.",
+    "rough_diamond": "Enfoque técnico detallado: desglosar patrones de diseño, equivalencias arquitectónicas y buenas prácticas paso a paso, demostrando dominio de fundamentos y rápida adaptación tecnológica.",
+    "salary_directive": "Pretensión de renta líquida conversable y abierta al rango de mercado ofrecido para la posición.",
+    "mobility_directive": "Residencia en Santiago, Chile, con disponibilidad inmediata para modalidad presencial, híbrida o remota."
+  },
+  "education": {
+    "degree": "Ingeniero en Informática",
+    "institution": "Universidad Tecnológica Demo",
+    "semesters": 8,
+    "period": "2020 - 2025",
+    "status": "Titulado"
+  },
+  "total_experience_years": 2,
+  "authorized_companies": [
+    {
+      "name": "Acme Cloud",
+      "role": "Ingeniero de Software Full Stack & Continuidad TI",
+      "period": "2025 - Presente",
+      "summary": "Mantención evolutiva de microservicios y módulos ERP en Python y PostgreSQL, integración de APIs REST, contenerización con Docker y pipelines CI/CD.",
+      "bullets": [
+        "Desarrollo y soporte de módulos web, APIs REST e integraciones ERP (Python y PostgreSQL) garantizando continuidad operativa.",
+        "Automatización de despliegues con Docker, Docker Compose y pipelines CI/CD junto con optimización de consultas SQL."
+      ]
+    },
+    {
+      "name": "DataFlow Labs",
+      "role": "Desarrollador Backend & Automatización",
+      "period": "2024 - 2025",
+      "summary": "Construcción de scripts en Python, pipelines ETL de ingesta masiva de datos y consumo de APIs RESTful de alta disponibilidad.",
+      "bullets": [
+        "Automatización de pipelines de ingesta, normalización y validación de datos corporativos en Python y SQL."
+      ]
+    },
+    {
+      "name": "WebShop Demo",
+      "role": "Desarrollador Web Full Stack",
+      "period": "2024",
+      "summary": "Desarrollo y administración de plataforma web transaccional con React, Next.js, Node.js y bases de datos relacionales.",
+      "bullets": [
+        "Implementación de interfaces en React, Next.js y TypeScript integradas con APIs Node.js, pasarelas de pago y PostgreSQL."
+      ]
+    }
+  ],
+  "authorized_projects": [
+    {
+      "name": "ClinicGeo",
+      "stack": [
+        "Next.js",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "PostGIS",
+        "Docker Compose",
+        "CI/CD"
+      ],
+      "description": "Plataforma web multi-tenant en monorepo con geolocalización PostGIS, control de permisos por perfil, auditoría inmutable y suite de pruebas automatizadas en CI."
+    },
+    {
+      "name": "FinanceCore",
+      "stack": [
+        ".NET 8",
+        "C#",
+        "Clean Architecture",
+        "DDD",
+        "SQL Server",
+        "xUnit"
+      ],
+      "description": "Motor financiero determinista desarrollado bajo Clean Architecture y DDD sobre SQL Server, validado mediante pruebas unitarias automatizadas con xUnit."
+    },
+    {
+      "name": "OrderOps",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Odoo ERP",
+        "Docker",
+        "APIs REST"
+      ],
+      "description": "Módulo de automatización operativa para órdenes de servicio y facturación electrónica con integraciones API REST y persistencia relacional."
+    },
+    {
+      "name": "AI-Pipeline",
+      "stack": [
+        "Python",
+        "IA Generativa",
+        "LLMs",
+        "Prompt Engineering",
+        "Scikit-learn",
+        "Pandas",
+        "ETL"
+      ],
+      "description": "Flujo automatizado de clasificación y extracción documental asistido por LLMs vía API con caché en SQLite, validación determinista y revisión humana."
+    }
+  ],
+  "skills": {
+    "Lenguajes & Frameworks": [
+      "Python",
+      "FastAPI",
+      "Django",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "C# (.NET 8)",
+      "Java (Spring Boot)",
+      "Angular"
+    ],
+    "Bases de Datos": [
+      "PostgreSQL",
+      "PostGIS",
+      "SQL Server (T-SQL)",
+      "MySQL",
+      "SQLite",
+      "MongoDB",
+      "Redis"
+    ],
+    "Cloud & DevOps": [
+      "Docker",
+      "Docker Compose",
+      "CI/CD",
+      "Git",
+      "GitHub Actions",
+      "AWS",
+      "Linux",
+      "Windows Server"
+    ],
+    "Arquitectura & IA": [
+      "APIs REST",
+      "Clean Architecture",
+      "DDD",
+      "SOLID",
+      "Odoo ERP",
+      "LLMs & Prompt Engineering",
+      "pytest / xUnit / Jest",
+      "Scrum"
+    ]
+  },
+  "authorized_certifications": [
+    "AI Engineer Associate",
+    "Cloud Deployment Fundamentals",
+    "Scrum Fundamentals Certified",
+    "SOLID & Clean Code",
+    "Linux Server Fundamentals",
+    "Inglés Técnico"
+  ],
+  "forbidden_claims": [
+    "5 años de experiencia",
+    "4 años de experiencia",
+    "3 años de experiencia",
+    "licencia clase b vigente",
+    "licencia de conducir vigente",
+    "licencia clase b",
+    "poseo licencia de conducir",
+    "cuento con licencia de conducir",
+    "AWS Certified Solutions Architect",
+    "Scrum Master Certified",
+    "PMP",
+    "SAP Certified"
+  ]
+}

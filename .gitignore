@@ -1,0 +1,36 @@
+# Secretos y configuraciones personales del candidato
+.env
+.env.*
+!.env.example
+config/candidate_profile.json
+config/cv_catalog.json
+config/search_preferences.json
+
+# Documentos personales del usuario
+cvs/*.pdf
+cvs/*.docx
+cvs/*.html
+!cvs/.gitkeep
+
+# Datos locales, SQLite y artefactos generados
+data/
+output/
+*.db
+*.db-wal
+*.db-shm
+APPLICATION_REPORT.md
+APPLICATION_AUDIT_LOG.md
+POSTULACIONES_SIMULADAS_MANUALES.md
+
+# Python y pruebas
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/

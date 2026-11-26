@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-automator"
+version = "1.0.0"
+description = "Motor persistente, generador de CV ATS y servidor MCP para postulación laboral asistida (Human-in-the-Loop)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0",
+    "playwright>=1.40.0",
+    "python-docx>=1.0.0",
+    "pymupdf>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[project.scripts]
+job-automator = "job_automator.cli:main"
+job-automator-mcp = "job_automator.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+job_automator = ["db/*.sql"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["src"]

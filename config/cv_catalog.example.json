@@ -1,0 +1,135 @@
+{
+  "cv_directory": "cvs",
+  "default_cv_base": "CV_Candidate_Software_Engineer",
+  "default_target_name": "CV_Candidate_Software_Engineer",
+  "profiles": [
+    {
+      "key": "backend_dotnet",
+      "cv_base": "CV_Candidate_Backend_DotNet_CSharp",
+      "target_name": "CV_Candidate_Backend_DotNet_CSharp",
+      "salary_category": "developer_and_infra",
+      "keywords": [
+        ".net",
+        "dotnet",
+        "c#",
+        "csharp",
+        "asp.net",
+        "blazor",
+        "entity framework"
+      ]
+    },
+    {
+      "key": "backend_python",
+      "cv_base": "CV_Candidate_Backend_Python_FastAPI",
+      "target_name": "CV_Candidate_Backend_Python_FastAPI",
+      "salary_category": "developer_and_infra",
+      "keywords": [
+        "python",
+        "fastapi",
+        "django",
+        "backend python",
+        "api rest python"
+      ]
+    },
+    {
+      "key": "fullstack_react_ts",
+      "cv_base": "CV_Candidate_Fullstack_React_TypeScript",
+      "target_name": "CV_Candidate_Fullstack_React_TypeScript",
+      "salary_category": "developer_and_infra",
+      "keywords": [
+        "full stack",
+        "fullstack",
+        "full-stack",
+        "react",
+        "next.js",
+        "nextjs",
+        "nestjs",
+        "typescript",
+        "node.js",
+        "nodejs",
+        "angular"
+      ]
+    },
+    {
+      "key": "mobile_apps",
+      "cv_base": "CV_Candidate_Mobile_Apps",
+      "target_name": "CV_Candidate_Mobile_Apps",
+      "salary_category": "developer_and_infra",
+      "keywords": [
+        "mobile",
+        "móvil",
+        "android",
+        "ios",
+        "react native",
+        "ionic",
+        "flutter",
+        "kotlin",
+        "swift"
+      ]
+    },
+    {
+      "key": "support_it",
+      "cv_base": "CV_Candidate_Support_IT",
+      "target_name": "CV_Candidate_Support_IT",
+      "salary_category": "support_and_ops",
+      "keywords": [
+        "soporte",
+        "soporte ti",
+        "mesa de ayuda",
+        "help desk",
+        "helpdesk",
+        "n1",
+        "n2",
+        "infraestructura",
+        "redes",
+        "sysadmin"
+      ]
+    },
+    {
+      "key": "qa_testing",
+      "cv_base": "CV_Candidate_QA_Testing",
+      "target_name": "CV_Candidate_QA_Testing",
+      "salary_category": "analyst_and_qa",
+      "keywords": [
+        "qa",
+        "quality assurance",
+        "calidad software",
+        "testing",
+        "tester",
+        "pruebas de software",
+        "automatizador qa"
+      ]
+    },
+    {
+      "key": "data_bi_etl",
+      "cv_base": "CV_Candidate_Data_BI_ETL",
+      "target_name": "CV_Candidate_Data_BI_ETL",
+      "salary_category": "analyst_and_qa",
+      "keywords": [
+        "business intelligence",
+        "etl",
+        "power bi",
+        "powerbi",
+        "analista de datos",
+        "data analyst",
+        "ia",
+        "machine learning",
+        "llm"
+      ]
+    },
+    {
+      "key": "general_it",
+      "cv_base": "CV_Candidate_Software_Engineer",
+      "target_name": "CV_Candidate_Software_Engineer",
+      "salary_category": "developer_and_infra",
+      "keywords": [
+        "desarrollador",
+        "programador",
+        "ingeniero de software",
+        "analista programador",
+        "java",
+        "spring boot"
+      ]
+    }
+  ]
+}
