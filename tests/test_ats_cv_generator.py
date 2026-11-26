@@ -150,8 +150,10 @@ async def test_async_pdf_generation(tmp_path: Path):
 
 def test_ats_generator_strict_error_handling(tmp_path: Path):
     """Test 6: Manejo estricto de errores ante rutas inválidas o excepciones."""
-    # Usar una ruta no accesible o inválida para forzar error en compilación
-    invalid_path = Path("Z:\\RutaInexistente_12345\\cv.pdf")
+    # Usar una ruta cuyo padre es un archivo regular para forzar error multiplataforma
+    blocker = tmp_path / "not_a_directory"
+    blocker.write_text("blocker", encoding="utf-8")
+    invalid_path = blocker / "cv.pdf"
 
     res = generate_ats_cv_for_job(
         job_title="Cargo Test",
